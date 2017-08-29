@@ -1,5 +1,5 @@
-# BayesianNN
-BayesianNN is a lightweight Bayesian neural network library built on top of tensorflow where network training is completed through stochastic variational inference (SVI). The library mainly facilitates speedy development of Bayesian neural net models in the case where multiple stacked layers are required.
+# bayesian-nn
+bayesian-nn is a lightweight *Bayesian neural network* library built on top of tensorflow where network training is completed through *stochastic variational inference* (SVI). The library mainly facilitates speedy development of Bayesian neural net models in the case where multiple stacked layers are required.
 
 ## Installation
 ```bash
