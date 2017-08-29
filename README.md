@@ -22,7 +22,7 @@ Pre-implemented layers include:
 Layer | BayesianNN
 ------- | --------
 FullyConnected | [bnn.fully_connected]()
-Conv2dInPlane | [bnn.conv2d]()
+Conv2d | [bnn.conv2d]()
 Conv2dTranspose (Deconv) | [bnn.conv2d_transpose]()
 RNN | [bnn.rnn]()
 
