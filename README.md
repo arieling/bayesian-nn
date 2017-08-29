@@ -15,11 +15,11 @@ import bayesian-nn as bnn
 
 
 ## Layers
-BayesianNN primarily provides the user with the flexibility of stacking neural net layers where weight distributions are trained through SVI.
+bayesian-nn primarily provides the user with the flexibility of stacking neural net layers where weight distributions are trained through SVI.
 
 Pre-implemented layers include:
 
-Layer | BayesianNN
+Layer | bayesian-nn
 ------- | --------
 FullyConnected | [bnn.fully_connected]()
 Conv2d | [bnn.conv2d]()
@@ -27,6 +27,6 @@ Conv2dTranspose (Deconv) | [bnn.conv2d_transpose]()
 RNN | [bnn.rnn]()
 
 ## Other Features
-Although BayesianNN mainly provides pre-implemented layers where weights are trained to follow certain distributions, the user can also tweak the detailed settings. 
+Although bayesian-nn mainly provides pre-implemented layers where weights are trained to follow certain distributions, the user can also tweak the detailed settings. 
 
 ## References
