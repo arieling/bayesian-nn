@@ -1,6 +1,8 @@
 # bayesian-nn
 bayesian-nn is a lightweight *Bayesian neural network* library built on top of tensorflow where training is completed with *stochastic variational inference* (SVI). The library is intended to resemble [tf.slim](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim) and help avoid massive boilerplate code. The end goal is to facilitate speedy development of Bayesian neural net models in the case where multiple stacked layers are required.
 
+**Note: This project is still under active development!
+
 ## Installation
 ```bash
 pip install bayesian-nn
