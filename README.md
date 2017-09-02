@@ -12,7 +12,7 @@ import bayesian-nn as bnn
 ```
 
 ## How are Bayesian neural nets trained with SVI?
-
+![Alt Text](assets/bbb_demo.gif)
 
 ## Layers
 bayesian-nn primarily provides the user with the flexibility of stacking neural net layers where weight distributions are trained through SVI.
@@ -28,7 +28,7 @@ RNN | [bnn.rnn]()
 
 ## Features
 The user can also further simplify boilerplate code through the following side features:
- 
+
 * [arg_scope](): allow users to define default arguments for specific operations within that scope.
 * [repeat](): allow users to repeatedly perform the same operation with the same parameters.
 * [stack](): allow users to perform the same operation with different parameters.
